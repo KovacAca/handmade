@@ -60,6 +60,27 @@ nav ul li a {
 nav ul li a:hover {
   color: var(--black);
 }
+/*************
+home
+*************/
+#home {
+  background-color: var(--lightgray);
+ }
+ #home article {
+   text-align: center;
+   padding: var(--padding);
+ }
+ #home article h2 {
+   font-size: 2rem;
+ }
+ #home article h2:after {
+   display: block;
+   content: '';
+   width: 50px;
+   height: 2px;
+   margin: 20px auto;
+   background-color: var(--orange);
+ }
 
 
 

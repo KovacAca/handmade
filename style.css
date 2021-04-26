@@ -25,6 +25,26 @@ body {
   max-width: 1140px;
   margin: auto;
 }
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+h2:after {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 2px;
+  margin: 20px auto;
+  background-color: var(--orange);
+}
+button {
+  background-color: var(--orange);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 8px 30px;
+  letter-spacing: 1px;
+  border: none;
+}
 /*************
 header
 *************/
@@ -67,20 +87,28 @@ home
   background-color: var(--lightgray);
  }
  #home article {
-   text-align: center;
    padding: var(--padding);
  }
- #home article h2 {
-   font-size: 2rem;
- }
- #home article h2:after {
-   display: block;
-   content: '';
-   width: 50px;
-   height: 2px;
-   margin: 20px auto;
-   background-color: var(--orange);
- }
+ /*************
+about
+*************/
+#about {
+  padding: var(--padding);
+}
+#about article {
+  display: flex;
+  justify-content: space-between;
+
+}
+#about article div {
+  text-align: center;
+  width: 30%;
+}
+#about article div p {
+  padding: 20px 0;
+}
+
+
 
 
 

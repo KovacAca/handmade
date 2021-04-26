@@ -41,9 +41,13 @@ button {
   background-color: var(--orange);
   color: var(--white);
   text-transform: uppercase;
-  padding: 8px 30px;
+  padding: 8px 35px;
   letter-spacing: 1px;
   border: none;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--black);
 }
 /*************
 header
@@ -81,32 +85,55 @@ nav ul li a:hover {
   color: var(--black);
 }
 /*************
-home
-*************/
-#home {
-  background-color: var(--lightgray);
- }
- #home article {
-   padding: var(--padding);
- }
- /*************
 about
 *************/
 #about {
+  background-color: var(--lightgray);
+ }
+ #about article {
+   padding: var(--padding);
+ }
+/*************
+product
+*************/
+#product {
   padding: var(--padding);
 }
-#about article {
+#product article {
   display: flex;
   justify-content: space-between;
 
 }
-#about article div {
+#product article div {
   text-align: center;
   width: 30%;
 }
-#about article div p {
+#product article div p {
   padding: 20px 0;
 }
+/*************
+shop
+*************/
+#shop {
+  padding: var(--padding);
+  background-color: var(--lightgray);
+}
+#shop article {
+  display: flex;
+  justify-content: space-between;
+}
+.image img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.card {
+  width: 20%;
+  text-align: center;
+}
+.card p {
+  padding: 20px 0;
+}
+
 
 
 
